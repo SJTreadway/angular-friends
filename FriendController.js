@@ -1,8 +1,7 @@
 (function() {
 
-var app = angular.module("friendsApp");
-
-app.controller("FriendController", function($scope) {
+angular.module("friendsApp")
+       .controller("FriendController", function($scope) {
 
 	$scope.friends = [
   {

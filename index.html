@@ -37,7 +37,7 @@
     </form>
 
     <ul>
-      <li class='friend' ng-repeat="friend in friends | filter: searchTerm | orderBy: sort: boolean">
+      <li class='friend' ng-repeat="friend in friends | filter: searchTerm.name | filter: searchTerm.current_location | orderBy: sort: boolean">
         <img class="profile-pic" ng-src="{{friend.pic_square}}">
 
         <h3 ng-bind="friend.name"></h3>

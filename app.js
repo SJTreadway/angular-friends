@@ -1,5 +1,5 @@
 (function() {
 
-var app = angular.module("friendsApp", []);
+angular.module("friendsApp", []);
 
 })();

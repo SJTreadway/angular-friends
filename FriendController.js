@@ -1,3 +1,5 @@
+(function() {
+
 var app = angular.module("friendsApp");
 
 app.controller("FriendController", function($scope) {
@@ -434,6 +436,5 @@ app.controller("FriendController", function($scope) {
     "$$hashKey": "02U"
   }
 ]
-
-
 })
+})();
